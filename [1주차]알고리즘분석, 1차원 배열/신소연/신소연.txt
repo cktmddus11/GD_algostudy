@@ -16,6 +16,9 @@ git clone https://github.com/bhb0047/GD_algostudy.git
 git config --global user.name "bhb0047"
 git config --global user.email bhb0047@gmail.com
 
+git config --global user.name ""
+git config --global user.email ""
+
 // 깃에 푸시하기 전 순서 branch -> pull -> push
 //branch
 git branch
