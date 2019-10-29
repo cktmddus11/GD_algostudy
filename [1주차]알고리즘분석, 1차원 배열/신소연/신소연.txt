@@ -1,0 +1,35 @@
+https://trello.com/yonghejo/boards // 트렐로 사이트
+https://github.com/J511Y/GD_algostudy // 깃허브
+
+//깃 설정
+// 클론
+git clone https://github.com/bhb0047/GD_algostudy.git
+// 사용자 설정
+git config --global user.name "bhb0047"
+git config --global user.email bhb0047@gmail.com
+
+// 깃에 푸시하기 전 순서 branch -> pull -> push
+//branch
+git checkout -b new_bransh
+git checkout master // master로 돌아오기
+git branch -d new_branch // 가지 삭제
+git push origin new_branch
+
+//pull
+git pull 
+// ? // git merge 
+
+// push
+cd [경로]
+git add *
+git commit -m 'message'
+git push
+
+// 컴퓨터 끄기 전 확인
+구글 로그아웃?
+깃 로그아웃?
+깃 허브 로그아웃?
+
+//깃 로그아웃
+git config --global user.name ""
+git config --global user.email ""
