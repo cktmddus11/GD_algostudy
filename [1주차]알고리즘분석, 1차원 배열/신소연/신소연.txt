@@ -1,35 +1,41 @@
-https://trello.com/yonghejo/boards // Æ®·¼·Î »çÀÌÆ®
-https://github.com/J511Y/GD_algostudy // ±êÇãºê
+https://trello.com/yonghejo/boards // íŠ¸ë ë¡œ ì‚¬ì´íŠ¸
+https://github.com/J511Y/GD_algostudy // ê¹ƒí—ˆë¸Œ
 
-//±ê ¼³Á¤
-// Å¬·Ğ
+//cd
+cd D:\ë°©ê³¼í›„\ì•Œê³ ë¦¬ì¦˜ ìŠ¤í„°ë”” ì¤‘ê¸‰ë°˜\GD_algostudy\[1ì£¼ì°¨]ì•Œê³ ë¦¬ì¦˜ë¶„ì„, 1ì°¨ì› ë°°ì—´\ì‹ ì†Œì—°
+cd D:\ë°©ê³¼í›„\ì•Œê³ ë¦¬ì¦˜ ìŠ¤í„°ë”” ì¤‘ê¸‰ë°˜\GD_algostudy
+
+//upstream ì„¤ì •
+git remote add upstream https://github.com/J511Y/GD_algostudy.git
+git remote remove upstream
+
+//ê¹ƒ ì„¤ì •
+// í´ë¡ 
 git clone https://github.com/bhb0047/GD_algostudy.git
-// »ç¿ëÀÚ ¼³Á¤
+// ì‚¬ìš©ì ì„¤ì •
 git config --global user.name "bhb0047"
 git config --global user.email bhb0047@gmail.com
 
-// ±ê¿¡ Çª½ÃÇÏ±â Àü ¼ø¼­ branch -> pull -> push
+// ê¹ƒì— í‘¸ì‹œí•˜ê¸° ì „ ìˆœì„œ branch -> pull -> push
 //branch
+git branch
 git checkout -b new_bransh
-git checkout master // master·Î µ¹¾Æ¿À±â
-git branch -d new_branch // °¡Áö »èÁ¦
-git push origin new_branch
+git checkout new_branch // new_branchë¡œ ê°€ê¸°
+git push origin new_branch // ë³€ê²½ì‚¬í•­ì„ originì— ì €ì¥
+git checkout master // masterë¡œ ëŒì•„ì˜¤ê¸°
+
+git branch -d new_branch // ê°€ì§€ ì‚­ì œ
 
 //pull
 git pull 
 // ? // git merge 
 
 // push
-cd [°æ·Î]
+cd [ê²½ë¡œ]
 git add *
 git commit -m 'message'
 git push
 
-// ÄÄÇ»ÅÍ ²ô±â Àü È®ÀÎ
-±¸±Û ·Î±×¾Æ¿ô?
-±ê ·Î±×¾Æ¿ô?
-±ê Çãºê ·Î±×¾Æ¿ô?
-
-//±ê ·Î±×¾Æ¿ô
-git config --global user.name ""
-git config --global user.email ""
+// ì»´í“¨í„° ë„ê¸° ì „ í™•ì¸
+(í¬ë¡¬)êµ¬ê¸€ ë¡œê·¸ì•„ì›ƒ?
+ë°±ì¤€ ë¡œê·¸ì•„ì›ƒ?
