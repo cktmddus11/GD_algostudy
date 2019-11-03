@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9311A6F7-EDAF-4D53-81DB-1F75ADD2EA18}</ProjectGuid>
+    <ProjectGuid>{81716021-742B-4ACB-A8CF-B75102FD08AD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Baekjoons_2</RootNamespace>
-    <AssemblyName>Baekjoons_2</AssemblyName>
+    <RootNamespace>Programmers</RootNamespace>
+    <AssemblyName>Programmers</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>Baekjoons_2._2주차_문자열_크로아티아알파벳_2941</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,16 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="2주차_1차원배열_ox퀴즈_8958.cs" />
-    <Compile Include="2주차_문자열_단어공부_1157.cs" />
-    <Compile Include="2주차_문자열_단어의개수_1152.cs" />
-    <Compile Include="2주차_문자열_크로아티아알파벳_2941.cs" />
-    <Compile Include="수업\2주차_1부터 100000까지 소수.cs" />
-    <Compile Include="수업\2주차_1차원배열_최소,최대_10818.cs" />
-    <Compile Include="2주차_1차원배열_평균은 넘겠지_4344.cs" />
-    <Compile Include="수업\2주차_문자열_알파벳찾기_10809.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Week2_문자열내p와y의개수.cs" />
+    <Compile Include="Week2_배열+문자열.cs" />
+    <Compile Include="Week2_문자열다루기기본.cs" />
+    <Compile Include="week2_이상한문자만들기.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
